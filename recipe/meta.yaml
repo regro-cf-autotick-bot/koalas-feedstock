@@ -19,6 +19,7 @@ requirements:
     - pip
     - python >=3.5
   run:
+    - matplotlib >=3.0.0
     - numpy >=1.14
     - pandas >=0.23
     - pyarrow >=0.10

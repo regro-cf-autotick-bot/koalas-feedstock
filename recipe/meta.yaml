@@ -10,7 +10,7 @@ source:
   sha256: 34c2a813eae76cec03b2431173883a7e453c706e41be6f29fece0a90a8ee2274
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
   noarch: python
 
@@ -19,7 +19,7 @@ requirements:
     - pip
     - python >=3.5,<3.8
   run:
-    - matplotlib >=3.0.0
+    - matplotlib-base >=3.0.0
     - numpy >=1.14
     - pandas >=0.23.2,<1.0
     - pyarrow >=0.10,<0.15

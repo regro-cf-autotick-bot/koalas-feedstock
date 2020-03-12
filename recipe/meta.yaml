@@ -1,17 +1,17 @@
 {% set name = "koalas" %}
-{% set version = "0.28.0" %}
+{% set version = "0.29.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 81732c5889fec0e074de2a3095e9c71bdfc5d9b90bec996cda4626d730381f92
+  sha256: 9dd6579fd0442b893bb497e0654ccb04d45b35a3a19acbc3837c579eeb2d2979
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
   noarch: python
 
 requirements:

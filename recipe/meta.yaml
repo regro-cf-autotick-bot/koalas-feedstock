@@ -17,13 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5,<3.8
+    - python >=3.5,<3.9
   run:
     - matplotlib >=3.0.0
     - numpy >=1.14
     - pandas >=0.23.2
     - pyarrow >=0.10
-    - python >=3.5,<3.8
+    - python >=3.5,<3.9
 
 test:
   requires:

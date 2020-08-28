@@ -19,8 +19,8 @@ requirements:
     - pip
     - python >=3.5,<3.9
   run:
-    - matplotlib >=3.0.0
-    - numpy >=1.14
+    - matplotlib matplotlib>=3.0.0,<3.3.0
+    - numpy>=1.14,<1.19.0
     - pandas >=0.23.2
     - pyarrow >=0.10
     - python >=3.5,<3.9

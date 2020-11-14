@@ -120,7 +120,9 @@ Feedstock Maintainers
 
 * [@HyukjinKwon](https://github.com/HyukjinKwon/)
 * [@gatorsmile](https://github.com/gatorsmile/)
+* [@itholic](https://github.com/itholic/)
 * [@rxin](https://github.com/rxin/)
 * [@thunterdb](https://github.com/thunterdb/)
 * [@ueshin](https://github.com/ueshin/)
+* [@xinrong-databricks](https://github.com/xinrong-databricks/)
 
